@@ -13,6 +13,7 @@ env:
 
 jobs:
   build:
+    if: github.repository == 'pgplex/pgschema'
     runs-on: ubuntu-latest
     permissions:
       contents: read
